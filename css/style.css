@@ -1,8 +1,19 @@
 .pattern{
-    background-color: rgb(23, 142, 179);
-    background-repeat: repeat;
+    background-color: #4EA0FF;
+    background-size: contain;
+    background-image: url(../img/pattern.png) repeat;    
+}
+.title{
+    
+
 }
 
 .greytext{
     color: grey;
+}
+
+.sub-title{
+    color: #4EA0FF;
+
+    
 }
