@@ -1,19 +1,35 @@
 .pattern{
     background-color: #4EA0FF;
     background-size: contain;
-    background-image: url(../img/pattern.png) repeat;    
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat; 
+    height: 60px;
+   
 }
-.title{
+    
+.logo{
+    position: relative;
+    height: 100px;
+    width: 100px;
+
     
 
 }
 
 .greytext{
     color: grey;
+    margi: 0 auto;
 }
 
-.sub-title{
-    color: #4EA0FF;
+h3{
+    margin:0;
+}
 
-    
+#mg-0-descrizione {
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
