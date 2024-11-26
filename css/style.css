@@ -61,8 +61,21 @@ td, th {
     background-color:white ;
 }
 
-.img{
+.img-1{
     background-image:url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    height:200px;
+    margin-left:178px;
     
+
+}
+
+.text-link{
+    color: white;
+    padding-left: 50px;
+   padding-top: 0.01%;
+    
+
+
 }
 
