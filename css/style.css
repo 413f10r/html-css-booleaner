@@ -1,81 +1,130 @@
-.pattern{
+.pattern {
     background-color: #4EA0FF;
     background-size: contain;
     background-image: url(../img/pattern.png);
-    background-repeat: repeat; 
-    height: 60px;  
+    background-repeat: repeat;
+    height: 80px;
 }
-    
-.logo{
+
+.logo {
     position: relative;
     height: 125px;
     width: 125px;
     padding: 25px;
+    display: block;
 }
 
-.grey-text{
+.grey-text {
     color: grey;
-    margin: 0 auto;
+
 }
 
-h3{
-    margin:0 auto;
+h3 {
+    margin: 0 auto;
 }
 
 #mg-0-descrizione {
-    margin: 0 auto;
-    
+    margin-left: 15px;
 }
-.container{
+
+.descrizione-foto {
+    margin-bottom: 10px;
+}
+
+.container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
-#setup-margin-photo{
+
+#setup-margin-photo {
     margin-top: 25px;
     margin-bottom: 0 auto;
+
+    li {}
 }
 
-.table{
+#title-table {
+
+    border: 1px solid;
+    border-color: #3a96e2;
+    background-color: #3dd9f5;
+    color: white;
+}
+
+.table {
+
     border: 1px solid;
     border-collapse: collapse;
     border-color: #B1E5F2;
     background-color: #B1E5F2;
-} 
+}
 
-td, th {
-    border-color: #B1E5F2;
+table th {
     text-align: left;
-    padding: 8;
 }
 
-#title-table{
 
-        border: 1px solid;
-        border-color: #3a96e2;
-        background-color: #3dd9f5;
-        color: white;
-    }
-
-#withe-tab{
-    background-color:white ;
+table th thead {
+    background-color: #3a96e2;
+    color: white;
 }
 
-.img-1{
-    background-image:url(../img/monitor.jpg);
+.colonne {}
+
+
+
+#withe-tab {
+    background-color: white;
+}
+
+.img-1 {
+    background-image: url(../img/graph.jpg);
     background-repeat: no-repeat;
-    height:200px;
-    margin-left:178px;
-    
+    height: 200px;
+
+    margin: 15px;
+    margin-left: 70px;
+
 
 }
 
-.text-link{
+.img-2 {
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-left: 70px;
+
+
+}
+
+.text-link {
     color: white;
     padding-left: 50px;
-   padding-top: 0.01%;
-    
+    padding-top: 0.01%;
+
 
 
 }
 
+
+
+
+
+footer .img-2-box {
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.link-text {
+    color: gray;
+    margin-left: 65px;
+
+}
+
+.container-text {
+    margin: 10px;
+}
